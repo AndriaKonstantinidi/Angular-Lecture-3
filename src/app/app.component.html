@@ -1,4 +1,4 @@
-<h1>my name is: {{firstName}}</h1>
+<!-- <h1>my name is: {{firstName}}</h1>
 <h5>my last name is: {{lastName}}</h5>
 <p>{{age}}</p>
 
@@ -7,4 +7,16 @@
 <button (click)="onBtnClick()" class="btn btn-success">Click</button>
 
 <input [(ngModel)] = "userName" type="text" placeholder="enter your name">
-<p>{{userName}}</p>
+<p>{{userName}}</p> -->
+
+<input [(ngModel)] = "firstName" type="text" placeholder="enter first name">
+<input [(ngModel)] = "lastName" type="text" placeholder="enter last name">
+<input [(ngModel)] = "age" type="number" placeholder="enter your age">
+<input [(ngModel)] = "num" type="number" placeholder="enter your phone number">
+<input [(ngModel)] = "gender" type="text" placeholder="enter your gender">
+
+<h1>{{firstName}}</h1>
+<h1>{{lastName}}</h1>
+<h1>{{age}}</h1>
+<h1>{{num}}</h1>
+<h1>{{gender}}</h1>
